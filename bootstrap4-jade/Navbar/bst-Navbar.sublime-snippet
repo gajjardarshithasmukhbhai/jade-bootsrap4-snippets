@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+doctype html
+nav.navbar.navbar-expand-lg.navbar-light.bg-light
+  a.navbar-brand(href='#') ${1}
+  button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarTogglerDemo02', aria-controls='navbarTogglerDemo02', aria-expanded='false', aria-label='Toggle navigation')
+    span.navbar-toggler-icon
+  #navbarTogglerDemo02.collapse.navbar-collapse
+    ul.navbar-nav.mr-auto.mt-2.mt-lg-0
+      li.nav-item.active
+        a.nav-link(href='#')
+          | ${2}
+          span.sr-only (current)
+      li.nav-item
+        a.nav-link(href='#') ${3}
+      li.nav-item
+        a.nav-link.disabled(href='#', tabindex='-1', aria-disabled='true') Disabled
+    form.form-inline.my-2.my-lg-0
+      input.form-control.mr-sm-2(type='search', placeholder='Search')
+      button.btn.btn-outline-success.my-2.my-sm-0(type='submit') ${4}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bstd-navbar</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    	<scope>entity.name.tag.jade, entity.name.tag.pug</scope>
+</snippet>

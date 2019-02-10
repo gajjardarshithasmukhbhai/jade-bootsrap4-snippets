@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+.alert.alert-warning.alert-dismissible.fade.show(role='alert')
+  strong Holy guacamole!
+  |  ${1}
+  button.close(type='button', data-dismiss='alert', aria-label='Close')
+    span(aria-hidden='true') ×
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bstd-alert-dismiss</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+		<scope>entity.name.tag.jade, entity.name.tag.pug</scope>
+</snippet>

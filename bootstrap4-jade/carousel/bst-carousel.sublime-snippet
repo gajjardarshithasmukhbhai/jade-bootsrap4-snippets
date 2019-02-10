@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+#carouselExampleSlidesOnly.carousel.slide(data-ride='carousel')
+  .carousel-inner
+    .carousel-item.active
+      img.d-block.w-100(src='${2}', alt='...')
+    .carousel-item
+      img.d-block.w-100(src='${3}', alt='...')
+    .carousel-item
+      img.d-block.w-100(src='${4}', alt='...')
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bstd-carousel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+		<scope>entity.name.tag.jade, entity.name.tag.pug</scope>
+</snippet>

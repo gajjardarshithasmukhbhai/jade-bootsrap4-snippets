@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+doctype html
+.pos-f-t
+  #navbarToggleExternalContent.collapse
+    .bg-dark.p-4
+      h5.text-white.h4 ${1}
+      span.text-muted ${2}
+  nav.navbar.navbar-dark.bg-dark
+    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarToggleExternalContent', aria-controls='navbarToggleExternalContent', aria-expanded='false', aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bstd-modern-navbar</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    	<scope>entity.name.tag.jade, entity.name.tag.pug</scope>
+</snippet>

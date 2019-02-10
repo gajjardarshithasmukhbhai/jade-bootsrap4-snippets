@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+form
+  .form-row
+    .form-group.col-md-12
+      label(for='inputEmail4') ${1}
+      input#inputEmail4.form-control(type='email', placeholder='Email')
+    .form-group.col-md-12
+      label(for='inputPassword4') ${2}
+      input#inputPassword4.form-control(type='password', placeholder='Password')
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bstd-form-row</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    	<scope>entity.name.tag.jade, entity.name.tag.pug</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+.card.text-center
+  .card-header
+    | ${1}
+  .card-body
+    h5.card-title ${2}
+    p.card-text ${3}
+    a.btn.btn-primary(href='#') Go somewhere
+  .card-footer.text-muted
+    | ${3}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bstd-card-simpel</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    	<scope>entity.name.tag.jade, entity.name.tag.pug</scope>
+</snippet>

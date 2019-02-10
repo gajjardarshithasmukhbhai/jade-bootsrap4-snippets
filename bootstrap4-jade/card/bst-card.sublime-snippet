@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+.card(style='width: 18rem;')
+  img.card-img-top(src='${1}', alt='...')
+  .card-body
+    h5.card-title Card title
+    p.card-text
+      | ${2}
+    a.btn.btn-primary(href='#') ${3}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bstd-card</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    	<scope>entity.name.tag.jade, entity.name.tag.pug</scope>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+#carouselExampleControls.carousel.slide(data-ride='carousel')
+  .carousel-inner
+    .carousel-item.active
+      img.d-block.w-100(src='${1}', alt='...')
+    .carousel-item
+      img.d-block.w-100(src='${2}', alt='...')
+    .carousel-item
+      img.d-block.w-100(src='${3}', alt='...')
+  a.carousel-control-prev(href='#carouselExampleControls', role='button', data-slide='prev')
+    span.carousel-control-prev-icon(aria-hidden='true')
+    span.sr-only Previous
+  a.carousel-control-next(href='#carouselExampleControls', role='button', data-slide='next')
+    span.carousel-control-next-icon(aria-hidden='true')
+    span.sr-only Next
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bstd-carousel-indicator</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+		<scope>entity.name.tag.jade, entity.name.tag.pug</scope>
+</snippet>
